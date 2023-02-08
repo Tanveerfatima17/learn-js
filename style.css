@@ -1,0 +1,23 @@
+.menu{
+    font-weight: bold; font-size: 20px;
+}
+#register{
+    width:600px;
+    background-color:white;
+    padding:16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.details{
+    margin: 0%;
+    margin-bottom: 4px;
+    font-size: 20px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.inp{
+    width:100%;
+    font-size: 18px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    

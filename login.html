@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Login</title>
+</head>
+
+<body style="background-color: #f2f6ff;">
+  <div style="background-color: rgb(160, 227, 247);padding:20px;margin-top: 20px;">
+    <span class="menu" style="padding:16px;font-weight: bold;"><a href="index.html">HOME</a></span>
+    <span class="menu" style="padding:16px;margin:5px"><a href="About.html">TAKE A TEST</a></span>
+    <span class="menu" style="padding:16px"><a href="contact.html">CONTACT </a></span>
+    <span class="menu" style="padding:16px"><a href="login.html">Login </a></span>
+</div>
+   <h1 style="text-align: center;padding-top: 56px;padding-bottom: 32px;">Signup</h1>
+  <form id="register">
+    
+    <p class="details">Full name :</p>
+    <input class="inp" type="text" name="full-name" autofocus required><br>
+
+    <p class="details">Email:</p>
+    <input class="inp" type="email" name="email" placeholder="xyz@abc.com"  required><br>
+
+    <p class="details">Password:</p>
+        <input class="inp" type="password"name="password" required maxlength="8">
+
+    <p class="details" >Confirm Password</p>
+    <input class="inp" type="password" name="confirm-password" placeholder="Same as password" required maxlength="8">
+
+    <div>
+      <p class="details">Age:</p>
+      <input class="inp" type="number" required min="15" max="45">
+    </div>
+
+   <!-- Gender:<br>
+    Male<input type="radio" value="Male" name="Male"></input>
+    Female <input type="radio" value="Female" name="Female" </input>
+    Other <input type="radio" value="Other" name="Other"></input>  -->
+    
+    <p class="details">Security Question</p>
+    <select class="inp"  name="sec_que"><option value="pet_name">What was your first pet's name? </option>
+    <option value="first_job">What was your first job?</option>
+<option value="nickname">What is your nickname?</option></select><br>
+
+    <div><br>
+      <textarea class="inp" name="answer" rows="6" cols="30"></textarea>
+      </div>
+    <input style="margin-top: 16px; " type="checkbox" name="TandC" value="accept" required>I agree to accept the terms and conditions applied.
+     <br><input style="margin-top: 16px;padding-top: 12px;padding-bottom: 12px;padding-left: 24px;padding-right: 24px;font-size: 18px; background-color:  rgb(160, 227, 247)" type="submit" value="REGISTER">
+    <input style="margin-top: 16px;padding-top: 12px;padding-bottom: 12px;padding-left: 24px;padding-right: 24px;font-size: 18px; "  type="reset" value="RESET"> 
+     
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
